@@ -1,0 +1,124 @@
+<services>
+    <!-- ******************************************************************** -->
+    <!-- ************************* LIVE TV Channels ************************* -->
+    <!-- ******************************************************************** -->
+
+    <!-- ***** HLS Live TV ***** -->
+    <service>
+        <name>Sky News [LIVE][HLS]</name>
+        <url>http://skynews-go-hls.ak-cdn.skydvn.com/skynews/1404/latest.m3u8</url>
+        <onid>1</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>Bip Bop[HLS]</name>
+        <url>http://192.168.0.107:8082/variant_clear_bip_bop.m3u8 </url>
+        <onid>2</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>  
+
+    <!-- ******************************************************************** -->
+    <!-- ************************* VOD TV Channels ************************* -->
+    <!-- ******************************************************************** -->
+
+    <!-- ***** HLS VOD TV ***** -->
+    <!--
+    <service>
+        <name>Kaltura [HLS][VOD]</name>
+        <url>http://cdnapi.kaltura.com/p/1878761/sp/187876100/playManifest/entryId/1_usagz19w/flavorIds/1_5spqkazq,1_nslowvhp,1_boih5aji,1_qahc37ag/format/applehttp/protocol/http/a.m3u8</url>
+        <onid>11</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+    </service>
+    -->
+
+    <service>
+        <name>Steve Jobs [HLS][VOD]</name>
+        <url>http://192.168.0.107:8086/static/VOD/SteveJobs_clear/SteveJobs.m3u8</url>
+        <onid>12</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>Demi Lovato [HLS][VOD]</name>
+        <url>http://hls-video.vevo.com/v5/USUV71603866/hls/a766c57d-e779-44d5-9334-5554f74c0d94/index.m3u8</url>
+        <onid>13</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>Demi Lovato IT [HLS][VOD]</name>
+        <url>http://test.hls.liveos.micdn.skycdn.it/mozart/367/index.m3u8</url>
+        <onid>14</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>CNN [HLS][VOD][SUBS]</name>
+        <url>http://playertest.longtailvideo.com/adaptive/captions/playlist.m3u8</url>
+        <onid>16</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>Stone 2010 [HLS][VOD][AT][SUBS]</name>
+        <url>http://test.hlsvod.oscdn.skycdn.it/OtherDev/MI/Sviluppo/HLS/SKY_SD_TR_8390_Stone/playlist.m3u8</url>
+        <onid>17</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>Greece [HLS][VOD]</name>
+        <url>https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8</url>
+        <onid>18</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <!-- ***** DASH VOD TV ***** -->
+    <service>
+        <name>Formula [DASH][VOD]</name>
+        <url>http://dash.edgesuite.net/envivio/dashpr/clear/Manifest.mpd</url>
+        <onid>19</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>Big Buck Bunny [4K][DASH][VOD]</name>
+        <url>http://dash.edgesuite.net/akamai/bbb_30fps/bbb_30fps.mpd</url>
+        <onid>20</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+</services>
+
