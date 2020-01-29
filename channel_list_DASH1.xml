@@ -1,0 +1,746 @@
+<services>
+    <!-- ******************************************************************** -->
+    <!-- ************************* LIVE TV Channels ************************* -->
+    <!-- ******************************************************************** -->
+
+    
+    <!-- ***** DASH Live TV ***** -->
+	
+	
+	<!-- ***** VOD (Static MPD) ***** -->
+    <service>
+        <name>SegmentTemplate/Number live profile</name>
+        <url>http://rdmedia.bbc.co.uk/dash/ondemand/testcard/1/client_manifest-events.mpd</url>
+        <onid>1</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    
+    <service>
+        <name>SegmentBase ondemand profile</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1a/sony/SNE_DASH_SD_CASE1A_REVISED.mpd</url>
+        <onid>2</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    
+    <service>
+        <name>SegmentTimeline/Time</name>
+        <url>http://demo.unified-streaming.com/video/ateam/ateam.ism/ateam.mpd</url>
+        <onid>3</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    
+    <service>
+        <name>Multiperiod</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/5a/1/manifest.mpd</url>
+        <onid>4</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>SegmentTemplate live profile - Envivio</name>
+        <url>https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd</url>
+        <onid>5</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>External VTT subtitle file</name>
+        <url>https://dash.akamaized.net/akamai/test/caption_test/ElephantsDream/elephants_dream_480p_heaac5_1.mpd</url>
+        <onid>6</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>SegmentTemplate/Number live profile, 250kbps up to 15Mbps@4K.</name>
+        <url>https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd</url>
+        <onid>7</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+	<!-- ***** LIVE (Dynamic MPD) ***** -->
+    <service>
+        <name>SegmentTemplate without manifest updates (livesim)</name>
+        <url>http://test.hlsvod.oscdn.skycdn.it/OtherDev/MI/Sviluppo/HLS/SKY_SD_TR_8390_Stone/playlist.m3u8</url>
+        <onid>8</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>SegmentTemplate with manifest updates every 30s (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/mup_30/testpic_2s/Manifest.mpd</url>
+        <onid>9</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>SegmentTimeline (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/segtimeline_1/testpic_2s/Manifest.mpd</url>
+        <onid>10</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Multiperiod SegmentTemplate New period every minute (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/periods_60/continuous_1/testpic_2s/Manifest.mpd</url>
+        <onid>11</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>IRT reference with EBU-TT-D subtitles</name>
+        <url>http://irtdashreference-i.akamaihd.net/dash/live/901161/bfs/manifestARD.mpd</url>
+        <onid>12</onid>
+        <tsid>1</tsid>
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>IRT CMAF reference with subtitles</name>
+        <url>http://irtdashreference-i.akamaihd.net/dash/live/901161/keepixo1/manifestBR2.mpd</url>
+        <onid>13</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>10 seconds availabilityTimeOffset (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/ato_10/testpic_2s/Manifest.mpd</url>
+        <onid>14</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    
+    <service>
+        <name>Infinite offset - all segments available at availability start (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/ato_inf/testpic_2s/Manifest.mpd</url>
+        <onid>15</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Low Latency (Single-Rate) (livesim-chunked)</name>
+        <url>https://livesim.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest300.mpd</url>
+        <onid>16</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+
+    <service>
+        <name>Low Latency (Multi-Rate) (livesim-chunked)</name>
+        <url>https://livesim.dashif.org/livesim-chunked/chunkdur_1/ato_7/testpic4_8s/Manifest.mpd</url>
+        <onid>17</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+    <service>
+        <name>Akamai Low Latency Stream</name>
+        <url>https://akamaibroadcasteruseast.akamaized.net/cmaf/live/657078/akasource/out.mpd</url>
+        <onid>18</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+	
+    <service>
+        <name>Akamai 24x7 reference stream - segmentTemplate</name>
+        <url>http://24x7dash-i.akamaihd.net/dash/live/900080/dash-demo/dash.mpd</url>
+        <onid>19</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+	
+    <service>
+        <name>Axinom reference stream (Live-Clear)</name>
+        <url>https://akamai-axtest.akamaized.net/routes/lapd-v1-acceptance/www_c4/Manifest.mpd</url>
+        <onid>20</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+	
+    <service>
+        <name>Unified Streaming reference stream with scte35 markers</name>
+        <url>https://live.unified-streaming.com/scte35/scte35.isml/.mpd</url>
+        <onid>21</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<!-- ***** Subtitles and Captions ***** -->
+    <service>
+        <name>TTML Segmented Subtitles VoD</name>
+        <url>https://livesim.dashif.org/dash/vod/testpic_2s/multi_subs.mpd</url>
+        <onid>22</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>TTML Segmented Subtitles Live (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/testpic_2s/multi_subs.mpd</url>
+        <onid>23</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>TTML Sideloaded XML Subtitles</name>
+        <url>https://livesim.dashif.org/dash/vod/testpic_2s/xml_subs.mpd</url>
+        <onid>24</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Embedded CEA-608 Closed Captions</name>
+        <url>https://livesim.dashif.org/dash/vod/testpic_2s/cea608.mpd</url>
+        <onid>25</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Embedded CEA-608 Closed Captions (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/testpic_2s/cea608.mpd</url>
+        <onid>26</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Embedded CEA-608 Closed Captions and TTML segments VoD</name>
+        <url>https://livesim.dashif.org/dash/vod/testpic_2s/cea608_and_segs.mpd</url>
+        <onid>27</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Embedded CEA-608 Closed Captions and TTML segments Live (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/testpic_2s/cea608_and_segs.mpd</url>
+        <onid>28</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>TTML Segmented 'snaking' subtitles (with random text) (Ondemand)</name>
+        <url>http://rdmedia.bbc.co.uk/dash/ondemand/elephants_dream/1/client_manifest-snake.mpd</url>
+        <onid>29</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>IMSC1 Text Subtitles via sidecar file</name>
+        <url>https://dash.akamaized.net/dash264/CTA/imsc1/IT1-20171027_dash.mpd</url>
+        <onid>30</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>IMSC1 (CMAF) Image Subtitles</name>
+        <url>https://livesim.dashif.org/dash/vod/testpic_2s/imsc1_img.mpd</url>
+        <onid>31</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>TTML Image Subtitles embedded (VoD)</name>
+        <url>https://livesim.dashif.org/dash/vod/testpic_2s/img_subs.mpd</url>
+        <onid>32</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<!-- ***** Thumbnails ***** -->
+     
+	 <service>
+        <name>Single adaption set 7 tiles at 10x1 each thumb 320x180</name>
+        <url>https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_tiled_thumbnails.mpd</url>
+        <onid>33</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Single adaption set 4 tiles at 10x1 each thumb 205x115</name>
+        <url>https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_4_tiles_thumbnails.mpd</url>
+        <onid>34</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Single adaption set 1 tile at 10x20 each thumb 102x58</name>
+        <url>https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_tiled_thumbnails_2.mpd</url>
+        <onid>35</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Two adaption sets with different thumb resolutions</name>
+        <url>https://dash.akamaized.net/akamai/bbb_30fps/bbb_with_multiple_tiled_thumbnails.mpd</url>
+        <onid>36</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Live stream Single adaptation set 1x1 tiles (livesim)</name>
+        <url>https://livesim.dashif.org/livesim/testpic_2s/Manifest_thumbs.mpd</url>
+        <onid>37</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>SegmentBase Single adaption set 3x4 tiles</name>
+        <url>https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-tiled-thumbnails-static.mpd</url>
+        <onid>38</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>SegmentTemplate with SegmentTimeline</name>
+        <url>https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-tiled-thumbnails-timeline.ism/.mpd</url>
+        <onid>39</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>SegmentNumber</name>
+        <url>https://demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-tiled-thumbnails-numbered.ism/.mpd</url>
+        <onid>40</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<!-- ***** Audio-only ***** -->
+	
+	<service>
+        <name>48k AAC-LC Stereo Beeps (Live)</name>
+        <url>https://livesim.dashif.org/livesim/testpic_2s/audio.mpd</url>
+        <onid>41</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>48k AAC-LC Stereo Beeps (Ondemand)</name>
+        <url>https://livesim.dashif.org/dash/vod/testpic_2s/audio.mpd</url>
+        <onid>42</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>128k AAC-LC Stereo 1kHz Tone (Ondemand)</name>
+        <url>http://rdmedia.bbc.co.uk/dash/ondemand/testcard/1/client_manifest-audio-1kHz.mpd</url>
+        <onid>43</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>128k/320k AAC-LC Stereo/5.1 'Testcard' (Ondemand)+</name>
+        <url>http://rdmedia.bbc.co.uk/dash/ondemand/testcard/1/client_manifest-audio.mpd</url>
+        <onid>44</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<!-- ***** Axinom Test Content (modern) ***** -->
+	
+	<service>
+        <name>1080p with Widevine DRM, license expired after 60s</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_1080p.mpd</url>
+        <onid>45</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>1080p with PlayReady and Widevine DRM single key</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_1080p.mpd</url>
+        <onid>46</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>1080p with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_1080p.mpd</url>
+        <onid>47</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>1080p with W3C Clear Key single key</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_1080p_ClearKey.mpd</url>
+        <onid>48</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>1080p with W3C Clear Key multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_1080p_ClearKey.mpd</url>
+        <onid>49</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>1080p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_1080p.mpd</url>
+        <onid>50</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p with PlayReady and Widevine DRM single key</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest.mpd</url>
+        <onid>51</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest.mpd</url>
+        <onid>52</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p with W3C Clear Key single key</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_ClearKey.mpd</url>
+        <onid>53</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p with W3C Clear Key multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_ClearKey.mpd</url>
+        <onid>54</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest.mpd</url>
+        <onid>55</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Audio with PlayReady and Widevine DRM single key</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_AudioOnly.mpd</url>
+        <onid>56</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Audio with PlayReady and Widevine DRM, multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_AudioOnly.mpd</url>
+        <onid>57</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Audio with W3C Clear Key single key</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_AudioOnly_ClearKey.mpd</url>
+        <onid>58</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Audio with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_AudioOnly.mpd</url>
+        <onid>59</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Audio with W3C Clear Key single key</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_AudioOnly_ClearKey.mpd</url>
+        <onid>60</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Audio with W3C Clear Key multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_AudioOnly_ClearKey.mpd</url>
+        <onid>61</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Audio without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_AudioOnly.mpd</url>
+        <onid>62</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 1080p with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_1080p.mpd</url>
+        <onid>63</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 1080p with W3C Clear Key multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_1080p_ClearKey.mpd</url>
+        <onid>64</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 1080p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_MultiPeriod_1080p.mpd</url>
+        <onid>65</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 1080p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_MultiPeriod_1080p.mpd</url>
+        <onid>65</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+</services>
+
