@@ -655,20 +655,9 @@
 	
 	
 	<service>
-        <name>Audio with PlayReady and Widevine DRM multiple keys</name>
-        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_AudioOnly.mpd</url>
-        <onid>59</onid>
-        <tsid>1</tsid>0
-        <sid>1</sid>
-        <serviceType>1</serviceType>
-        <iptype>OTT</iptype>
-    </service>
-	
-	
-	<service>
         <name>Audio with W3C Clear Key single key</name>
         <url>https://media.axprod.net/TestVectors/v7-MultiDRM-SingleKey/Manifest_AudioOnly_ClearKey.mpd</url>
-        <onid>60</onid>
+        <onid>59</onid>
         <tsid>1</tsid>0
         <sid>1</sid>
         <serviceType>1</serviceType>
@@ -679,7 +668,7 @@
 	<service>
         <name>Audio with W3C Clear Key multiple keys</name>
         <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey/Manifest_AudioOnly_ClearKey.mpd</url>
-        <onid>61</onid>
+        <onid>60</onid>
         <tsid>1</tsid>0
         <sid>1</sid>
         <serviceType>1</serviceType>
@@ -690,7 +679,7 @@
 	<service>
         <name>Audio without encryption</name>
         <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_AudioOnly.mpd</url>
-        <onid>62</onid>
+        <onid>61</onid>
         <tsid>1</tsid>0
         <sid>1</sid>
         <serviceType>1</serviceType>
@@ -701,7 +690,7 @@
 	<service>
         <name>Multi-period 1080p with PlayReady and Widevine DRM multiple keys</name>
         <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_1080p.mpd</url>
-        <onid>63</onid>
+        <onid>62</onid>
         <tsid>1</tsid>0
         <sid>1</sid>
         <serviceType>1</serviceType>
@@ -712,6 +701,17 @@
 	<service>
         <name>Multi-period 1080p with W3C Clear Key multiple keys</name>
         <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_1080p_ClearKey.mpd</url>
+        <onid>63</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 1080p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_MultiPeriod_1080p.mpd</url>
         <onid>64</onid>
         <tsid>1</tsid>0
         <sid>1</sid>
@@ -721,8 +721,8 @@
 	
 	
 	<service>
-        <name>Multi-period 1080p without encryption</name>
-        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_MultiPeriod_1080p.mpd</url>
+        <name>Multi-period 2160p with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest.mpd</url>
         <onid>65</onid>
         <tsid>1</tsid>0
         <sid>1</sid>
@@ -732,9 +732,75 @@
 	
 	
 	<service>
-        <name>Multi-period 1080p without encryption</name>
-        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_MultiPeriod_1080p.mpd</url>
-        <onid>65</onid>
+        <name>Multi-period 2160p with W3C Clear Key multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_ClearKey.mpd</url>
+        <onid>66</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 2160p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_MultiPeriod.mpd</url>
+        <onid>67</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period audio with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_AudioOnly.mpd</url>
+        <onid>68</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period audio with W3C Clear Key multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v7-MultiDRM-MultiKey-MultiPeriod/Manifest_AudioOnly_ClearKey.mpd</url>
+        <onid>69</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period audio without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v7-Clear/Manifest_MultiPeriod_AudioOnly.mpd</url>
+        <onid>70</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Complex multi-period with different content encrypted</name>
+        <url>https://media.axprod.net/TestVectors/v8-MultiContent/Encrypted/Manifest.mpd</url>
+        <onid>71</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Complex multi-period with different content clear</name>
+        <url>https://media.axprod.net/TestVectors/v8-MultiContent/Clear/Manifest.mpd</url>
+        <onid>72</onid>
         <tsid>1</tsid>0
         <sid>1</sid>
         <serviceType>1</serviceType>
