@@ -808,5 +808,87 @@
     </service>
 	
 	
+	
+	<!-- ***** Axinom Test Content (conservative/legacy) ***** -->
+	
+	<service>
+        <name>1080p with PlayReady and Widevine DRM single key</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-MultiDRM/Manifest_1080p.mpd</url>
+        <onid>73</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>1080p with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-MultiDRM-MultiKey/Manifest_1080p.mpd</url>
+        <onid>74</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>1080p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-Clear/Manifest_1080p.mpd</url>
+        <onid>75</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p with PlayReady and Widevine DRM single key</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-MultiDRM/Manifest.mpd</url>
+        <onid>76</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-MultiDRM-MultiKey/Manifest.mpd</url>
+        <onid>77</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>2160p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-Clear/Manifest.mpd</url>
+        <onid>78</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 1080p with PlayReady and Widevine DRM multiple keys</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-MultiDRM-MultiKey-MultiPeriod/Manifest_1080p.mpd</url>
+        <onid>79</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	
+	
 </services>
 
