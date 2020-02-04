@@ -888,6 +888,252 @@
     </service>
 	
 	
+	<service>
+        <name>Multi-period 1080p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-Clear/MultiPeriod_Manifest_1080p.mpd</url>
+        <onid>80</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>Multi-period 2160p without encryption</name>
+        <url>https://media.axprod.net/TestVectors/v6.1-Clear/MultiPeriod_Manifest.mpd</url>
+        <onid>81</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<!-- ***** DASH Industry Forum Test Vectors ***** -->
+	<!-- ***** Single Resolution Multi-Rate ***** -->
+
+	<service>
+        <name>AVC Single-Resolution Multi-Rate On Demand profile 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1a/netflix/exMPD_BIP_TC1.mpd</url>
+        <onid>82</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Single-Resolution Multi-Rate On Demand profile 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1a/sony/SNE_DASH_SD_CASE1A_REVISED.mpd</url>
+        <onid>83</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Single-Resolution Multi-Rate On Demand profile 3</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1a/qualcomm/1/MultiRate.mpd</url>
+        <onid>84</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Single-Resolution Multi-Rate On Demand profile 4</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1a/qualcomm/2/MultiRate.mpd</url>
+        <onid>85</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Single-Resolution Multi-Rate Live profile 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1b/qualcomm/1/MultiRatePatched.mpd</url>
+        <onid>86</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Single-Resolution Multi-Rate Live profile 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1b/qualcomm/2/MultiRate.mpd</url>
+        <onid>87</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Single-Resolution Multi-Rate Live profile SegmentTimeline 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1c/qualcomm/1/MultiRate.mpd</url>
+        <onid>88</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Single-Resolution Multi-Rate Live profile SegmentTimeline 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/1c/qualcomm/2/MultiRate.mpd</url>
+        <onid>89</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<!-- ***** Multi-Resolution Multi-Rate ***** -->
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate On Demand profile 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/2a/qualcomm/1/MultiResMPEG2.mpd</url>
+        <onid>90</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate On Demand profile 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/2a/qualcomm/2/MultiRes.mpd</url>
+        <onid>91</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/2b/qualcomm/1/MultiResMPEG2.mpd</url>
+        <onid>92</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile 3</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/2b/qualcomm/2/MultiRes.mpd</url>
+        <onid>93</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile SegmentTimeline 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/2c/qualcomm/1/MultiResMPEG2.mpd</url>
+        <onid>94</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile SegmentTimeline 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCases/2c/qualcomm/2/MultiRes.mpd</url>
+        <onid>95</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate On Demand profile upto 1080p 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCasesHD/2a/qualcomm/1/MultiResMPEG2.mpd</url>
+        <onid>96</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate On Demand profile upto 1080p 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCasesHD/2a/qualcomm/2/MultiRes.mpd</url>
+        <onid>97</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCasesHD/2b/DTV/1/live.mpd</url>
+        <onid>98</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>\
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile upto 1080p 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCasesHD/2b/qualcomm/1/MultiResMPEG2.mpd</url>
+        <onid>99</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile upto 1080p 2</name>
+        <url>https://dash.akamaized.net/dash264/TestCasesHD/2b/qualcomm/2/MultiRes.mpd</url>
+        <onid>100</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
+	
+	<service>
+        <name>AVC Multi-Resolution Multi-Rate Live profile upto 1080p SegmentTimeline 1</name>
+        <url>https://dash.akamaized.net/dash264/TestCasesHD/2c/qualcomm/1/MultiResMPEG2.mpd</url>
+        <onid>101</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+	
 	
 	
 </services>
