@@ -1133,8 +1133,172 @@
         <serviceType>1</serviceType>
         <iptype>OTT</iptype>
     </service>
+
+SG
+    <service>
+        <name>Clear Dynamic SegmentTimeline</name>
+        <url>//wowzaec2demo.streamlock.net/live/bigbuckbunny/manifest_mvtime.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+    <service>
+        <name>Clear Dynamic SegmentTemplate</name>
+        <url>//wowzaec2demo.streamlock.net/live/bigbuckbunny/manifest_mvnumber.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Clear Dynamic SegmentList</name>
+        <url>//wowzaec2demo.streamlock.net/live/bigbuckbunny/manifest_mvlist.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Clear Static SegmentTimeline</name>
+        <url>//wowzaec2demo.streamlock.net/vod/_definst_/ElephantsDream/smil:ElephantsDream.smil/manifest_mvtime.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Clear Static SegmentTemplate</name>
+        <url>//wowzaec2demo.streamlock.net/vod/_definst_/ElephantsDream/smil:ElephantsDream.smil/manifest_mvnumber.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Clear Static SegmentList</name>
+        <url>//wowzaec2demo.streamlock.net/vod/_definst_/ElephantsDream/smil:ElephantsDream.smil/manifest_mvlist.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Widevine Dynamic SegmentTimeline</name>
+        <url>https://wowzaec2demo.streamlock.net/live/bigbuckbunny-enc-wv.stream/manifest_mvtime.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Widevine Dynamic SegmentTemplate</name>
+        <url>https://wowzaec2demo.streamlock.net/live/bigbuckbunny-enc-wv.stream/manifest_mvnumber.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Widevine Dynamic SegmentList</name>
+        <url>https://wowzaec2demo.streamlock.net/live/bigbuckbunny-enc-wv.stream/manifest_mvlist.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Widevine Static SegmentTimeline</name>
+        <url>https://wowzaec2demo.streamlock.net/vod/elephantsdream_1100kbps-enc-wv.mp4/manifest_mvtime.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Widevine Static SegmentTemplate</name>
+        <url>https://wowzaec2demo.streamlock.net/vod/elephantsdream_1100kbps-enc-wv.mp4/manifest_mvnumber.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Widevine Static SegmentList</name>
+        <url>https://wowzaec2demo.streamlock.net/vod/elephantsdream_1100kbps-enc-wv.mp4/manifest_mvlist.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>4K</name>
+        <url>https://dash.akamaized.net/akamai/streamroot/050714/Spring_4Ktest.mpd</url>
+        <onid></onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
 	
-	
+
+    <service>
+        <name>Unified Streaming - Timeline</name>
+        <url>https://demo.unified-streaming.com/video/ateam/ateam.ism/ateam.mpd</url>
+        <onid>101</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
+    <service>
+        <name>Unified Streaming (Widevine, persistent)</name>
+        <url>//demo.unified-streaming.com/video/tears-of-steel/tears-of-steel-dash-widevine.ism/.mpd</url>
+        <onid>101</onid>
+        <tsid>1</tsid>0
+        <sid>1</sid>
+        <serviceType>1</serviceType>
+        <iptype>OTT</iptype>
+    </service>
+
+
 	
 </services>
 
